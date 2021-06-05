@@ -2,18 +2,13 @@ class MoviesController < ApplicationController
   before_action :find_movie, only: [ :show ]
 
   def index
-    @movie = Movie.all
+    @movies = Movie.all
   end
 
   # Our app will not allow users to create movies
   # Instead, we will generate a static seed of movies to choose from
 
   def show
-  end
-
-  def delete
-    @movie.destroy
-    redirect_to movies_path
   end
 
   private

@@ -48,3 +48,5 @@ gem 'rspec-rails', group: [ :test ]
 gem 'rails-controller-testing', group: [ :test ]
 
 gem 'simple_form'
+gem 'font-awesome-sass', '~> 5.12.0'
+gem 'autoprefixer-rails', '10.2.5'

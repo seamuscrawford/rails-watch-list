@@ -24,3 +24,8 @@ movies["results"].sample(10).each do |movie|
 end
 
 puts "created #{Movie.count} new movies"
+
+List.create(name: "Classics")
+List.create(name: "Scary Movies")
+List.create(name: "Favourites")
+List.create(name: "Rom Coms")
